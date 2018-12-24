@@ -1,4 +1,4 @@
-BS
+Background-
 
 I chose Azure as a cloud provider over AWS as I did not had an active AWS account. Also, I take it as a challenge and learning, as in the past I have worked mostly with AWS.
 
@@ -6,14 +6,14 @@ I chose Azure as a cloud provider over AWS as I did not had an active AWS accoun
 Tools used - 
 I used azure-cli and cloud-init as these simple yet powerful tools worked for efficient provisioning and setup.
 
-Azure keyvault - I explored it, understand it but I faced issue while creating a secret from azure-cli. It thrown an error - "Operation returned an invalid status code 'Unauthorized'" which I guess has  to do with vault permissions. I couldn't dig deeper due to time constraint.
+Azure keyvault - I explored it, understand it but facing a challenge in integrating it with the app. I am using two npm modules for integration - azure-keyvault (a SDK) and ms-rest-azure (for authentication using Managed Service Identity or service to azure-service authentication).
 
-Scaling -
-We can use both ARM and Terraform to deploy infrastructure. I personally go with Terraform however, it also depends on other factors ie: resources you are deploying, if you are using any CM tool for handling configurations etc.
 
-For Static website we can use S3 with Cloudfrond. I would strongly suggest these two services for mentioned reasons-
+Steps to deploy this application?
 
-- serverless
-- autoscale
-- fast (cdn)
-- cost efficient
+- Clone this repo
+- Login to azure-cli with "az login"
+- Run setup.sh with chmod +x setup.sh && bash setup.sh
+- Copy the VM IP address from output of above command to browse the app.
+
+You can ssh on the VM with azureadmin@VM-IP-Address
