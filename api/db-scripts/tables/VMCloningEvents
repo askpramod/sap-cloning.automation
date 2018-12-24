@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS VMCloningEvents(
+    Id int(7) NOT NULL AUTO_INCREMENT,
+    SenderIP VARCHAR(15) NOT NULL,
+    Event VARCHAR(30) NOT NULL,
+    Status VARCHAR(15) NOT NULL,    
+    CreatedBy VARCHAR(50),
+    CreatedDate DATE,
+    PRIMARY KEY(Id)
+    );

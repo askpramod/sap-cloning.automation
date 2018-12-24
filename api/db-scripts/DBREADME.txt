@@ -1,0 +1,1 @@
+This folder conatins the MariaDB tables schema and stored procedures

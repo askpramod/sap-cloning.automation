@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS VMStatusEvents(
+    Id int(7) NOT NULL AUTO_INCREMENT,
+    ServerName VARCHAR(50) NOT NULL,
+    ServerIP VARCHAR(15) NOT NULL,    
+    Event VARCHAR(30) NOT NULL,
+    Status VARCHAR(15) NOT NULL,
+    CreatedBy VARCHAR(50),
+    CreatedDate DATE,
+    PRIMARY KEY(Id)
+    );

@@ -1,0 +1,506 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ServerSu",
+				"ServerSubnet2"
+			],
+			[
+				"Server",
+				"ServerSubnet1"
+			],
+			[
+				"Serve",
+				"ServerSubnets"
+			],
+			[
+				"TDX",
+				"TDXServerBucket"
+			],
+			[
+				"Buc",
+				"BucketName"
+			],
+			[
+				"ALB",
+				"ALBSecurityGroup"
+			],
+			[
+				"VPCID",
+				"VpcId"
+			],
+			[
+				"databse",
+				"database"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"Secu",
+				"SecurityGroup"
+			],
+			[
+				"Securi",
+				"SecurityGroupIngress"
+			],
+			[
+				"page",
+				"page"
+			],
+			[
+				"become",
+				"become_method"
+			],
+			[
+				"rys",
+				"rsyslogd"
+			],
+			[
+				"st",
+				"state"
+			],
+			[
+				"line",
+				"lineinfile"
+			],
+			[
+				"rsyslog",
+				"rsyslog"
+			],
+			[
+				"start",
+				"started"
+			],
+			[
+				"enab",
+				"enabled"
+			],
+			[
+				"serve",
+				"service"
+			],
+			[
+				"apache",
+				"apache2"
+			],
+			[
+				"we",
+				"web"
+			],
+			[
+				"dire",
+				"directory_mode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"last_filter": "key",
+		"selected_items":
+		[
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"setting",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/pramod/Desktop/Assignments/BS/instruction",
+		"/home/pramod/Desktop/TDX_PROD/cfn/tdx_vpc_template.yml",
+		"/home/pramod/Desktop/compact.io_env_install.sh",
+		"/home/pramod/Downloads/testingnodejs.PublishSettings",
+		"/home/pramod/Desktop/qa_.env",
+		"/home/pramod/Desktop/dev_.env",
+		"/home/pramod/Downloads/STAR_lifekee_com_NEW/STAR_lifekee_com.csr",
+		"/home/pramod/Downloads/STAR_lifekee_com_NEW/STAR_lifekee_com.ca-bundle",
+		"/home/pramod/Downloads/STAR_lifekee_com_NEW/STAR_lifekee_com.crt",
+		"/home/pramod/Downloads/STAR_lifekee_com_NEW/STAR_lifekee_com.key",
+		"/home/pramod/Desktop/TDX_PROD/cfn/tdx_database_template.yml",
+		"/home/pramod/Desktop/TDX_PROD/cfn/tdx_marketing_site_template.yml",
+		"/home/pramod/Desktop/TDX_PROD/cfn/tdx_platform_template.yml",
+		"/home/pramod/Desktop/TAX_PROD/cfn/tax_db_template.yml",
+		"/home/pramod/Desktop/TAX_PROD/cfn/tax_wp_template.yml",
+		"/home/pramod/Desktop/TAX_PROD/techadox notes for PROD infra setup",
+		"/home/pramod/Desktop/TAX_PROD/cfn/tax_server_template.yml",
+		"/home/pramod/Desktop/TAX_PROD/cfn/tax_vpc_template.yml",
+		"/home/pramod/Desktop/TAX_PROD/cfn/AutoScalingMultiAZWithNotifications_template.yml",
+		"/home/pramod/Desktop/TAX_PROD/cfn/vpc_cloudformation_template.yml",
+		"/home/pramod/Desktop/TAX_PROD/cfn/tax_s3.json",
+		"/home/pramod/Downloads/stage_techadox.sql",
+		"/home/pramod/Downloads/api.treblenetwork.com.key",
+		"/home/pramod/Downloads/api.treblenetwork.com/gd_bundle-g2-g1.crt",
+		"/home/pramod/Downloads/NEW_STAR_lifekee_com/STAR_lifekee_com.crt",
+		"/home/pramod/Downloads/NEW_STAR_lifekee_com/STAR_lifekee_com.ca-bundle",
+		"/home/pramod/Downloads/www.treblenetwork.com.csr",
+		"/home/pramod/Downloads/api.treblenetwork.com/1eae4143620e7e47.crt",
+		"/home/pramod/Downloads/staging-secrets.yml",
+		"/home/pramod/Desktop/TAX_PROD/cfn/techadox_single_az.yml",
+		"/home/pramod/Desktop/TAX_PROD/cfn/tax_server_template_amazonLinux.yml",
+		"/home/pramod/Desktop/ongoing_tasks",
+		"/home/pramod/Repos/Devops/Python/nginx/nginx.conf",
+		"/home/pramod/Downloads/main.template",
+		"/home/pramod/Downloads/vpc-2azs.yaml",
+		"/home/pramod/Desktop/techadox.yml",
+		"/home/pramod/Desktop/Notes on Cloudformation -",
+		"/home/pramod/Desktop/todo",
+		"/home/pramod/Desktop/automation candidates-",
+		"/home/pramod/Desktop/TAD_PROD/cfn/tad_vpc_template.yml",
+		"/home/pramod/Desktop/AWS/Security/vpc_cloudformation_template.yml",
+		"/home/pramod/Desktop/vpc_cloudformation_template.yml",
+		"/home/pramod/Desktop/My_strategy",
+		"/home/pramod/Desktop/Elastic stack notes",
+		"/home/pramod/Desktop/awsconfiguration_updated.json",
+		"/home/pramod/Desktop/build.log",
+		"/home/pramod/Downloads/lifekee.key",
+		"/home/pramod/Downloads/STAR_lifekee_com/STAR_lifekee_com.crt",
+		"/home/pramod/Downloads/lifekee.crt",
+		"/home/pramod/Downloads/STAR_topfan_com.crt",
+		"/home/pramod/Desktop/yat_eks_vpc.yaml",
+		"/home/pramod/Desktop/kubernetes_setup_with_kops",
+		"/home/pramod/Downloads/244d410a-66e4-4d20-9d69-74c254178e95",
+		"/home/pramod/Desktop/test.yaml",
+		"/home/pramod/.cache/.fr-XY753l/index.js",
+		"/home/pramod/.config/sublime-text-3/Packages/User/desktop",
+		"/home/pramod/Downloads/ansible-for-RoR/ruby-webapp.yml",
+		"/home/pramod/Desktop/yat_eks_vpc",
+		"/home/pramod/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/pramod/Downloads/ansible-for-RoR/vars/defaults.yml",
+		"/home/pramod/Downloads/ansible-for-RoR/roles/webserver/tasks/ruby.yml",
+		"/home/pramod/Downloads/database.yml",
+		"/home/pramod/Downloads/wing-dev-buil-log.txt",
+		"/home/pramod/Downloads/hppublickey (1)",
+		"/home/pramod/Downloads/hppublickey",
+		"/home/pramod/Downloads/ansible-takeaclass-staging/roles/webserver/templates/etc_init_puma.j2",
+		"/home/pramod/Desktop/Work_strategy",
+		"/home/pramod/Downloads/ansible-for-RoR/roles/webserver/tasks/puma.yml",
+		"/home/pramod/Downloads/ansible-for-RoR/roles/webserver/tasks/nginx.yml",
+		"/home/pramod/Downloads/ansible-for-RoR/roles/webserver/tasks/main.yml",
+		"/home/pramod/Downloads/ansible-for-RoR/roles/webserver/tasks/deploy.yml",
+		"/home/pramod/Documents/ECA/imp links",
+		"/home/pramod/Downloads/linux_phat_client/linux_phat_client/README.txt",
+		"/home/pramod/Desktop/words",
+		"/home/pramod/Desktop/ISA_strategy",
+		"/home/pramod/ansible/myplaybook.yml",
+		"/home/pramod/ansible/playbooks/configuration/nginx.yml",
+		"/home/pramod/Downloads/Infra-Automation/ansible/playbook/roles/webserver/tasks/main.yml",
+		"/home/pramod/Downloads/ansible-takeaclass-staging/roles/webserver/tasks/deploy.yml",
+		"/home/pramod/Downloads/ansible-ror/roles/webserver/tasks/deploy.yml",
+		"/home/pramod/ansible/inventory/aws/inventory",
+		"/home/pramod/Downloads/pkgs/bomgar-scc-w07c301y7hz6idd6hhzzf78zxjhidgjefwd1jjc40jc90.desktop",
+		"/home/pramod/yat-kubeconfig",
+		"/home/pramod/Desktop/alert_email",
+		"/home/pramod/Downloads/google-services.json",
+		"/home/pramod/Downloads/GoogleService-Info.plist",
+		"/home/pramod/Downloads/CICD_RnD",
+		"/home/pramod/Desktop/Challanges-of-DevOps-Team",
+		"/home/pramod/exportOptions.plist",
+		"/home/pramod/Desktop/how to execute",
+		"/home/pramod/Downloads/csv/sample-import.csv",
+		"/home/pramod/Downloads/sql/heli_prod_db_chages_9aug/db_changes_v3 (1).sql",
+		"/home/pramod/Downloads/sql/heli_prod_db_chages_9aug/countries_changes.sql",
+		"/home/pramod/Downloads/safe-api-app.PublishSettings",
+		"/home/pramod/Downloads/ansible-ror/roles/webserver/tasks/puma.yml",
+		"/home/pramod/Downloads/crt/api_somatus_com/api_somatus_com.crt",
+		"/home/pramod/Downloads/crt/api_somatus_com/api.somatus.com.key",
+		"/home/pramod/Downloads/pem/publickey_jagpreet",
+		"/home/pramod/Downloads/sql/db_changes_v3.sql",
+		"/home/pramod/Downloads/Windows 10 Pro v.1511 En-us x64 July2016 Pre-Activated-=TEAM OS=-/Win10_Pro_1511_English_x64_july_2016.sha",
+		"/home/pramod/Downloads/Windows 10 Pro v.1511 En-us x64 July2016 Pre-Activated-=TEAM OS=-/Torrent downlaod from teamos-hkrg.com.txt",
+		"/home/pramod/Downloads/Windows 10 Pro v.1511 En-us x64 July2016 Pre-Activated-=TEAM OS=-/Win10_Pro_1511_English_x64_july_2016.md5",
+		"/home/pramod/Downloads/Windows 10 Pro v.1511 En-us x64 July2016 Pre-Activated-=TEAM OS=-/Win10_Pro_1511_English_x64_july_2016.sfv",
+		"/home/pramod/Downloads/Ankit.txt",
+		"/home/pramod/Downloads/pem/welocals.com/sf_bundle-g2-g1.crt",
+		"/home/pramod/Downloads/pem/welocals.com/a664cf8738c394ed.crt",
+		"/home/pramod/Desktop/settings.py",
+		"/home/pramod/Downloads/logs/export_2018-07-13-07-48-43-685.jsonl",
+		"/home/pramod/Desktop/yat-ios-build#3.log",
+		"/home/pramod/Downloads/spam.txt",
+		"/home/pramod/Desktop/kubernetes_setup_using_kops",
+		"/home/pramod/Desktop/notes on bash",
+		"/home/pramod/Videos/for_enterpreneurship",
+		"/home/pramod/Downloads/pkgs/awsconfiguration.json",
+		"/home/pramod/Downloads/pem/Public_key.txt",
+		"/home/pramod/.cache/.fr-p94L46/tamm-prod-05.txt",
+		"/home/pramod/.cache/.fr-FCJ6j7/tamm-prod-06.txt",
+		"/home/pramod/myplaybook.yml",
+		"/home/pramod/ansible/files/goaccessrc",
+		"/home/pramod/Downloads/matrix-org-synapse-1032393/README.rst",
+		"/home/pramod/Downloads/ansible-takeaclass-staging/deploy.rb",
+		"/home/pramod/terraform-course/ansible-vms/vars.tf",
+		"/home/pramod/terraform-course/ansible-vms/instance.tf",
+		"/home/pramod/test",
+		"/home/pramod/noti",
+		"/home/pramod/docker-compose.yml",
+		"/home/pramod/static-host/nginx.conf",
+		"/home/pramod/Downloads/ansible for RoR/hosts"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			":S3",
+			"subnet2",
+			"ssh",
+			"SSH",
+			"NetworkStackName",
+			"import",
+			"s3",
+			"TDX",
+			"VpcId",
+			"TDX",
+			"TDXPlatform",
+			"TDX",
+			"ServerSubnet",
+			"subnet",
+			"serverSubnet",
+			"GetAtt",
+			"tax",
+			"::DBIns",
+			"ALBSecurityGroup",
+			"ALB",
+			"InstanceSecurityGroup",
+			"ServerStackName",
+			"NetworkStackName",
+			"VpcId",
+			"NetworkStackName}-VpcId",
+			"NetworkStackName",
+			"DatabaseAlarmMaxCpuPercent",
+			"VPCZoneIdentifier",
+			"ServerSubnets",
+			"VPCZoneIdentifier",
+			"Subnets",
+			"SecurityGroups",
+			"SecurityGroup",
+			"SecurityGroups",
+			"autoscaling:EC2_INSTANCE_LAUNCH",
+			"InstanceSecurityGroup",
+			"SecurityGroup",
+			"ApplicationLoadBalancer",
+			"Serversubnets",
+			"Subnet",
+			"/opt",
+			"/usr/local/bin",
+			"/opt/aws/bin",
+			"WebServer",
+			"192",
+			"Server",
+			"Private",
+			"192",
+			"\n          -\n            Key: \"Environment\"\n            Value: \"Production\"",
+			"\n          -\n            Key: \"Environment\"\n            Value: \"Production\"\n\n          -\n            Key: \"Environment\"\n            Value: \"Production\"\n\n          -\n            Key: \"Environment\"\n            Value: \"Production\"\n\n          -\n            Key: \"Environment\"\n            Value: \"Production\"\n\n          -\n            Key: \"Environment\"\n            Value: \"Production\"\n\n          -\n            Key: \"Environment\"\n            Value: \"Production\"\n\n          -\n            Key: \"Environment\"\n            Value: \"Production\"",
+			"            Key: \"Environment\"\n            Value: \"Production\"",
+			"setup",
+			"environment",
+			"---\nAWSTemplateFormatVersion: '2010-09-09'\nDescription: 'Amazon EKS Sample VPC'\n\nParameters:\n\nVpcBlock:\nType: String\nDefault: 192.168.0.0/16\nDescription: The CIDR range for the VPC. This should be a valid private (RFC 1918) CIDR range.\n\nSubnet01Block:\nType: String\nDefault: 192.168.64.0/18\nDescription: CidrBlock for subnet 01 within the VPC\n\nSubnet02Block:\nType: String\nDefault: 192.168.128.0/18\nDescription: CidrBlock for subnet 02 within the VPC\n\nSubnet03Block:\nType: String\nDefault: 192.168.192.0/18\nDescription: CidrBlock for subnet 03 within the VPC\n\nMetadata:\nAWS::CloudFormation::Interface:\nParameterGroups:\n-\nLabel:\ndefault: \"Worker Network Configuration\"\nParameters:\n- VpcBlock\n- Subnet01Block\n- Subnet02Block\n- Subnet03Block\n\nResources:\nVPC:\nType: AWS::EC2::VPC\nProperties:\nCidrBlock: !Ref VpcBlock\nEnableDnsSupport: true\nEnableDnsHostnames: true\nTags:\n- Key: Name\nValue: !Sub '${AWS::StackName}-VPC'\n\nInternetGateway:\nType: \"AWS::EC2::InternetGateway\"\n\nVPCGatewayAttachment:\nType: \"AWS::EC2::VPCGatewayAttachment\"\nProperties:\nInternetGatewayId: !Ref InternetGateway\nVpcId: !Ref VPC\n\nRouteTable:\nType: AWS::EC2::RouteTable\nProperties:\nVpcId: !Ref VPC\nTags:\n- Key: Name\nValue: Public Subnets\n- Key: Network\nValue: Public\n\nRoute:\nDependsOn: VPCGatewayAttachment\nType: AWS::EC2::Route\nProperties:\nRouteTableId: !Ref RouteTable\nDestinationCidrBlock: 0.0.0.0/0\nGatewayId: !Ref InternetGateway\n\nSubnet01:\nType: AWS::EC2::Subnet\nMetadata:\nComment: Subnet 01\nProperties:\nAvailabilityZone:\nFn::Select:\n- '0'\n- Fn::GetAZs:\nRef: AWS::Region\nCidrBlock:\nRef: Subnet01Block\nVpcId:\nRef: VPC\nTags:\n- Key: Name\nValue: !Sub \"${AWS::StackName}-Subnet01\"\n\nSubnet02:\nType: AWS::EC2::Subnet\nMetadata:\nComment: Subnet 02\nProperties:\nAvailabilityZone:\nFn::Select:\n- '1'\n- Fn::GetAZs:\nRef: AWS::Region\nCidrBlock:\nRef: Subnet02Block\nVpcId:\nRef: VPC\nTags:\n- Key: Name\nValue: !Sub \"${AWS::StackName}-Subnet02\"\n\nSubnet03:\nType: AWS::EC2::Subnet\nMetadata:\nComment: Subnet 03\nProperties:\nAvailabilityZone:\nFn::Select:\n- '2'\n- Fn::GetAZs:\nRef: AWS::Region\nCidrBlock:\nRef: Subnet03Block\nVpcId:\nRef: VPC\nTags:\n- Key: Name\nValue: !Sub \"${AWS::StackName}-Subnet03\"\n\nSubnet01RouteTableAssociation:\nType: AWS::EC2::SubnetRouteTableAssociation\nProperties:\nSubnetId: !Ref Subnet01\nRouteTableId: !Ref RouteTable\n\nSubnet02RouteTableAssociation:\nType: AWS::EC2::SubnetRouteTableAssociation\nProperties:\nSubnetId: !Ref Subnet02\nRouteTableId: !Ref RouteTable\n\nSubnet03RouteTableAssociation:\nType: AWS::EC2::SubnetRouteTableAssociation\nProperties:\nSubnetId: !Ref Subnet03\nRouteTableId: !Ref RouteTable\n\nControlPlaneSecurityGroup:\nType: AWS::EC2::SecurityGroup\nProperties:\nGroupDescription: Cluster communication with worker nodes\nVpcId: !Ref VPC\n\nOutputs:\n\nSubnetIds:\nDescription: All subnets in the VPC\nValue: !Join [ \",\", [ !Ref Subnet01, !Ref Subnet02, !Ref Subnet03 ] ]\n\nSecurityGroups:\nDescription: Security group for the cluster control plane communication with worker nodes\nValue: !Join [ \",\", [ !Ref ControlPlaneSecurityGroup ] ]\n\nVpcId:\nDescription: The VPC Id\nValue: !Ref VPC\n\n",
+			"YAT-Android",
+			"\\n",
+			"\\r\\n",
+			"(.+)",
+			"Hylonome-",
+			"mobile",
+			"artitian",
+			"17406",
+			"17403",
+			"version",
+			"db",
+			"rds",
+			"numBackupsToRetain",
+			"12:01",
+			"Ravi%20Kumar",
+			"ravi.kumar@kiwitech.com",
+			"Ravi Kumar",
+			"000",
+			"N/A",
+			"emergency",
+			"Api::V0::GroupsController#near_me",
+			"25T02:50",
+			"/admin/users/",
+			"status",
+			"/admin/users/",
+			"admin/users",
+			"/admin/users/",
+			"memory > 'maxmemory'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"Marketing Website",
+			"",
+			"InstanceSecurityGroup",
+			"/usr/local/bin",
+			"TDXServer",
+			"0",
+			"Database",
+			"Server",
+			"0",
+			"",
+			"Float-Hybrid-Android",
+			", ",
+			"\"\\1\"",
+			"YAT-",
+			"app",
+			"Pramod%20Singh",
+			"pramod.singh@kiwitech.com",
+			"Pramod Singh",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "giteventcontroller.js.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

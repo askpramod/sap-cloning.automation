@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS GitEvents(
+    Id int(7) NOT NULL AUTO_INCREMENT,
+    RepositoryName VARCHAR(100) NOT NULL,
+    BranchName VARCHAR(50) NOT NULL,
+    GitTag VARCHAR(15) NOT NULL,
+    Event VARCHAR(30) NOT NULL,
+    Status VARCHAR(30) NOT NULL,
+    CreatedBy VARCHAR(50),
+    CreatedDate DATE,
+    PRIMARY KEY(Id)
+    );

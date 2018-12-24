@@ -1,0 +1,32 @@
+#cloud-config
+package_upgrade: true
+packages:
+  - nginx
+  - nodejs
+  - npm
+  - postgresql
+write_files:
+  - owner: www-data:www-data
+  - path: /etc/nginx/sites-available/default
+    content: |
+      server {
+        listen 80;
+        location / {
+          proxy_pass http://localhost:3000;
+          proxy_http_version 1.1;
+          proxy_set_header Upgrade $http_upgrade;
+          proxy_set_header Connection keep-alive;
+          proxy_set_header Host $host;
+          proxy_cache_bypass $http_upgrade;
+        }
+      }
+runcmd:
+  - sudo -u postgres bash -c "psql -c \"create database nodeappdb;\""
+  - sudo -u postgres bash -c "psql -c \"create user dbuser with encrypted password 'secret';\""
+  - sudo -u postgres bash -c "psql -c \"grant all privileges on database nodeappdb to dbuser;\""
+  - service nginx restart
+  - wget -P /tmp https://artifacts09.blob.core.windows.net/bs-node-app/sap-cloning.automation.tgz
+  - tar -xvzf sap-cloning.automation.tgz -C /home/azureadmin/
+  - cd "/home/azureadmin/sap-cloning.automation"
+  - npm install
+  - nodejs server.js
