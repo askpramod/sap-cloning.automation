@@ -11,4 +11,4 @@ az group create --name $rgname --location $region && az vm create -n $vmname -g 
 az vm open-port --port 80 --resource-group $rgname --name $vmname
 az vm identity assign --name $vmname --resource-group $rgname
 az keyvault create --name $kvname --resource-group $rgname --enabled-for-deployment true
-az keyvault secret set --vault-name $kvname --name "dbpassword" --value "secret"
+az keyvault secret set --vault-name $kvname --name "password" --value "secret"
