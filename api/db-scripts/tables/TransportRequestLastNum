@@ -1,5 +1,4 @@
-CREATE TABLE IF NOT EXISTS TransportRequestLastNum(
-    TRKORR VARCHAR(20) NOT NULL,
-    LASTNUM VARCHAR(10) NOT NULL,
-    UNIQUE KEY(LASTNUM)
- );
+CREATE TABLE public."TransportRequestLastNum" (
+    "TRKORR" character varying(20) DEFAULT NULL::character varying NOT NULL,
+    "LASTNUM" character varying(10) DEFAULT NULL::character varying NOT NULL
+);

@@ -1,11 +1,10 @@
-CREATE TABLE IF NOT EXISTS TransportRequestEvents(
-    Id int(7) NOT NULL AUTO_INCREMENT,
-    TRNumber VARCHAR(15) NOT NULL,
-    PRNumber VARCHAR(15) NOT NULL,
-    SenderIP VARCHAR(15) NOT NULL,
-    Event VARCHAR(30) NOT NULL,
-    Status VARCHAR(15) NOT NULL,
-    CreatedBy VARCHAR(50),
-    CreatedDate DATE,
-    PRIMARY KEY(Id)
-    );
+CREATE TABLE public."TransportRequestEvents" (
+    "Id" integer NOT NULL,
+    "TRNumber" character varying(15) DEFAULT NULL::character varying NOT NULL,
+    "PRNumber" character varying(15) DEFAULT NULL::character varying NOT NULL,
+    "SenderIP" character varying(15) DEFAULT NULL::character varying NOT NULL,
+    "Event" character varying(30) DEFAULT NULL::character varying NOT NULL,
+    "Status" character varying(15) DEFAULT NULL::character varying NOT NULL,
+    "CreatedBy" character varying(50) DEFAULT NULL::character varying,
+    "CreatedDate" date
+);

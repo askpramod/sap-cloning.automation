@@ -1,9 +1,8 @@
-CREATE TABLE IF NOT EXISTS TransportRequests(
-    Id int(7) NOT NULL AUTO_INCREMENT,
-    TransportRequestNo VARCHAR(30) NOT NULL,
-    Status VARCHAR(30) NOT NULL,
-    ServerName VARCHAR(20) NOT NULL,
-    CreatedBy VARCHAR(50),
-    CreatedDate DATE,
-    PRIMARY KEY(Id)
-    );
+CREATE TABLE public."TransportRequests" (
+    "Id" integer NOT NULL,
+    "TransportRequestNo" character varying(30) DEFAULT NULL::character varying NOT NULL,
+    "Status" character varying(30) DEFAULT NULL::character varying NOT NULL,
+    "ServerName" character varying(20) DEFAULT NULL::character varying NOT NULL,
+    "CreatedBy" character varying(50) DEFAULT NULL::character varying,
+    "CreatedDate" date
+);

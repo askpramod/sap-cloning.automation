@@ -1,5 +1,4 @@
-CREATE TABLE IF NOT EXISTS E070L(
-    TRKORR VARCHAR(20) NOT NULL,
-    LASTNUM VARCHAR(10) NOT NULL,
-    UNIQUE KEY(LASTNUM)
- );
+CREATE TABLE public."E070L" (
+    "TRKORR" character varying(20) DEFAULT NULL::character varying NOT NULL,
+    "LASTNUM" character varying(10) DEFAULT NULL::character varying NOT NULL
+);

@@ -1,11 +1,10 @@
-CREATE TABLE IF NOT EXISTS GitEvents(
-    Id int(7) NOT NULL AUTO_INCREMENT,
-    RepositoryName VARCHAR(100) NOT NULL,
-    BranchName VARCHAR(50) NOT NULL,
-    GitTag VARCHAR(15) NOT NULL,
-    Event VARCHAR(30) NOT NULL,
-    Status VARCHAR(30) NOT NULL,
-    CreatedBy VARCHAR(50),
-    CreatedDate DATE,
-    PRIMARY KEY(Id)
-    );
+CREATE TABLE public."GitEvents" (
+    "Id" integer NOT NULL,
+    "RepositoryName" character varying(100) DEFAULT NULL::character varying NOT NULL,
+    "BranchName" character varying(50) DEFAULT NULL::character varying NOT NULL,
+    "GitTag" character varying(15) DEFAULT NULL::character varying NOT NULL,
+    "Event" character varying(30) DEFAULT NULL::character varying NOT NULL,
+    "Status" character varying(30) DEFAULT NULL::character varying NOT NULL,
+    "CreatedBy" character varying(50) DEFAULT NULL::character varying,
+    "CreatedDate" date
+);

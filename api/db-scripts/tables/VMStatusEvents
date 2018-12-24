@@ -1,10 +1,9 @@
-CREATE TABLE IF NOT EXISTS VMStatusEvents(
-    Id int(7) NOT NULL AUTO_INCREMENT,
-    ServerName VARCHAR(50) NOT NULL,
-    ServerIP VARCHAR(15) NOT NULL,    
-    Event VARCHAR(30) NOT NULL,
-    Status VARCHAR(15) NOT NULL,
-    CreatedBy VARCHAR(50),
-    CreatedDate DATE,
-    PRIMARY KEY(Id)
-    );
+CREATE TABLE public."VMStatusEvents" (
+    "Id" integer NOT NULL,
+    "ServerName" character varying(50) DEFAULT NULL::character varying NOT NULL,
+    "ServerIP" character varying(15) DEFAULT NULL::character varying NOT NULL,
+    "Event" character varying(30) DEFAULT NULL::character varying NOT NULL,
+    "Status" character varying(15) DEFAULT NULL::character varying NOT NULL,
+    "CreatedBy" character varying(50) DEFAULT NULL::character varying,
+    "CreatedDate" date
+);
