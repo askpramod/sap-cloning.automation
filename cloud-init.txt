@@ -5,7 +5,7 @@ packages:
   - nodejs
   - npm
   - postgresql
-  - zip
+  - unzip
 write_files:
   - owner: www-data:www-data
   - path: /etc/nginx/sites-available/default
@@ -27,7 +27,7 @@ runcmd:
   - sudo -u postgres bash -c "psql -c \"grant all privileges on database nodeappdb to dbuser;\""
   - service nginx restart
   - wget -P /tmp https://github.com/askpramod/sap-cloning.automation/archive/master.zip
-  - unzip master.zip -d /home/azureadmin/
+  - unzip /tmp/master.zip -d /home/azureadmin/
   - cd "/home/azureadmin/sap-cloning.automation-master"
   - npm install
   - nodejs server.js
