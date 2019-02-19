@@ -1,4 +1,4 @@
-Background-
+Background:-
 
 I chose Azure as a cloud provider over AWS as I did not had an active AWS account. Also, I take it as a challenge and learning, as in the past I have worked mostly with AWS.
 
